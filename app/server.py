@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1HotMI6C6KQpkb85RRpP6Am_H2fmPr25P'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ["men's_kurdish_outfit", 'not_a_kurdish_outfit', "women's_kurdish_outfit"]
 path = Path(__file__).parent
 
 app = Starlette()
